@@ -43,7 +43,7 @@ df_final = df_inscritos_atuais
 
 
 #--------- Logo & Titulo --------
-#st.image('logo1-1.png', width=220)
+st.image('logo1-1.png', width=220)
 #st.image('logo2-2.png', width=150)
 st.markdown('## Respostas da Pesquisa')
 
