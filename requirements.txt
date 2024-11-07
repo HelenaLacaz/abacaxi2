@@ -1,0 +1,8 @@
+streamlit
+pandas
+altair
+datetime
+Counter
+unidecode
+openpyxl
+scikit-learn
