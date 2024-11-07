@@ -35,7 +35,10 @@ columns_inscritos_atuais[21] = 'Imersao' #
 
 
 df_inscritos_atuais.columns = columns_inscritos_atuais
-df_final = df_inscritos_atuais[['Email','Idade','Genero','Civil','Filhos','Escolaridade','Renda','Profissao','Seguidor','Imersao']]
+df_final = df_inscritos_atuais
+df_final
+
+#df_inscritos_atuais[['Email','Idade','Genero','Civil','Filhos','Escolaridade','Renda','Profissao','Seguidor','Imersao']]
 
 
 #--------- Logo & Titulo --------
@@ -241,4 +244,6 @@ col2.altair_chart(chart_civil, use_container_width=True)
 col3.altair_chart(chart_filhos, use_container_width=True)
 
 
+
+st.markdown('Probabilidade de Matricula')
 
