@@ -246,16 +246,15 @@ col3.altair_chart(chart_filhos, use_container_width=True)
 
 
 
-st.markdown('## Probabilidade de Matricula')
+st.markdown('## Probabilidade de Matricula - Acurácia do Modelo : 62% ')
 
-df_final['Probabilidade de Matricula'] = df_final['Probabilidade de Matricula']*100
+df_resp_filtered4['Probabilidade de Matricula'] = df_resp_filtered4['Probabilidade de Matricula']*100
 
 
-st.dataframe(df_final,
+st.dataframe(df_resp_filtered4,
              column_config={
                  "Probabilidade de Matricula": st.column_config.ProgressColumn(
                      "Probabilidade de Matricula", format="%d", min_value=0, max_value=100
                  )
              })
-
 
