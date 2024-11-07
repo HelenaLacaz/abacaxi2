@@ -23,15 +23,15 @@ columns_inscritos_atuais = list(df_inscritos_atuais.columns.values.tolist())
 
 columns_inscritos_atuais[2] = 'Email' #
 columns_inscritos_atuais[1] = 'Nome'
-columns_inscritos_atuais[4] = 'Idade' #
-columns_inscritos_atuais[5] = 'Genero' #
-columns_inscritos_atuais[6] = 'Civil' #
-columns_inscritos_atuais[7] = 'Filhos' #
-columns_inscritos_atuais[8] = 'Escolaridade' #
-columns_inscritos_atuais[9] = 'Renda' #
-columns_inscritos_atuais[10] = 'Profissao' #
-columns_inscritos_atuais[11] = 'Seguidor' #
-columns_inscritos_atuais[21] = 'Imersao' #
+columns_inscritos_atuais[5] = 'Idade' #
+columns_inscritos_atuais[6] = 'Genero' #
+columns_inscritos_atuais[7] = 'Civil' #
+columns_inscritos_atuais[8] = 'Filhos' #
+columns_inscritos_atuais[9] = 'Escolaridade' #
+columns_inscritos_atuais[10] = 'Renda' #
+columns_inscritos_atuais[11] = 'Profissao' #
+columns_inscritos_atuais[12] = 'Seguidor' #
+columns_inscritos_atuais[22] = 'Imersao' #
 
 
 df_inscritos_atuais.columns = columns_inscritos_atuais
